@@ -3,14 +3,14 @@
 	"clientOptions": {
 		"equipControl": "MUST_NOT_CROUCH",
 		"forceNullRenderReplacement": false,
-		"disableEmptySlotScreenError": false,
+		"disableEmptySlotScreenError": true,
 		"showCosmeticAccessories": true,
 		"disabledDefaultRenders": []
 	},
 	"screenOptions": {
 		"selectedScreenType": "ORIGINAL",
-		"showUnusedSlots": false,
-		"allowSlotScrolling": true,
+		"showUnusedSlots": true,
+		"allowSlotScrolling": false,
 		"inventoryButtonOffset": {
 			"x": 66,
 			"y": 8
@@ -19,7 +19,7 @@
 			"x": 96,
 			"y": 6
 		},
-		"isDarkMode": false,
+		"isDarkMode": true,
 		"showEquippedStackSlotType": true,
 		"entityLooksAtMouseCursor": false,
 		"allowSideBarCraftingGrid": true,

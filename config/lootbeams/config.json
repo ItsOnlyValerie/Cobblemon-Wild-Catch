@@ -92,7 +92,7 @@
     "trail_frequency": 1
   },
   "Items": {
-    "items_glow": true,
+    "items_glow": false,
     "all_items": true,
     "only_equipment": true,
     "only_rare": true,

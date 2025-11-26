@@ -29,5 +29,8 @@
                 "top": 333
             }
         }
+    },
+    "net.p3pp3rf1y.sophisticatedbackpacks.common.gui.BackpackContainer": {
+        "ignore": true
     }
 }

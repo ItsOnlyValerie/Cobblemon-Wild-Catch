@@ -1,9 +1,11 @@
 {
   "#README": "This config file does not support comments. To see them configure it in-game using YACL or Cloth Config (or just use Forge)",
   "general": {
+    "server_assets_generation_mode": "ALWAYS",
     "creative_tab": true,
-    "assets_depend_on_loaded_packs": true,
-    "save_debug_resources": false,
+    "generate_wood_tags": false,
+    "tab_item_search": true,
+    "no_mod_creative_tab": false,
     "mod_version_check_packet": true,
     "debug_packet": false,
     "tooltips": {

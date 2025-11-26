@@ -12,7 +12,8 @@
 	#Setting very high values may require modded bookshelves that provide more than one enchanting power per block (such as Apotheosis' bookshelves).
 	#This value will be fixed at 50 when Apotheosis is installed.
 	#Default Value: 15
-	#Range: > 0
+	# Default: 15
+	# Range: > 0
 	maximum_bookshelves = 15
 	#Allow enchantments that can normally not be obtained from an enchanting table, but can be put on the item in an anvil (e.g. sharpness on an axe).
 	#Default Value: true
@@ -27,11 +28,13 @@
 	[advanced_infuser.repair]
 		#Cost multiplier in levels for each repair step, result will be rounded up.
 		#Default Value: 2.0
-		#Range: 0.0 ~ 1.7976931348623157E308
+		# Default: 2.0
+		# Range: 0.0 ~ 1.7976931348623157E308
 		repair_step_multiplier = 2.0
 		#How many percentage points of an items total durability a single repair will restore.
 		#Default Value: 0.25
-		#Range: 0.1 ~ 1.0
+		# Default: 0.25
+		# Range: 0.1 ~ 1.0
 		repair_percentage_step = 0.25
 
 	#The main option in this section is "maximum_cost" as it determines how many levels you'll have to pay for fully enchanting an item with all possible enchantments it can have.
@@ -42,7 +45,8 @@
 		scale_costs_by_vanilla_only = true
 		#Cost level to scale prices by. This is not a strict value, meaning it can be exceeded (e.g. when applying treasure enchantments).
 		#Default Value: 30
-		#Range: > 1
+		# Default: 30
+		# Range: > 1
 		maximum_cost = 30
 
 [normal_infuser]
@@ -59,7 +63,8 @@
 	#Setting very high values may require modded bookshelves that provide more than one enchanting power per block (such as Apotheosis' bookshelves).
 	#This value will be fixed at 50 when Apotheosis is installed.
 	#Default Value: 15
-	#Range: > 0
+	# Default: 15
+	# Range: > 0
 	maximum_bookshelves = 15
 	#Allow enchantments that can normally not be obtained from an enchanting table, but can be put on the item in an anvil (e.g. sharpness on an axe).
 	#Default Value: false
@@ -74,11 +79,13 @@
 	[normal_infuser.repair]
 		#Cost multiplier in levels for each repair step, result will be rounded up.
 		#Default Value: 2.0
-		#Range: 0.0 ~ 1.7976931348623157E308
+		# Default: 2.0
+		# Range: 0.0 ~ 1.7976931348623157E308
 		repair_step_multiplier = 2.0
 		#How many percentage points of an items total durability a single repair will restore.
 		#Default Value: 0.25
-		#Range: 0.1 ~ 1.0
+		# Default: 0.25
+		# Range: 0.1 ~ 1.0
 		repair_percentage_step = 0.25
 
 	#The main option in this section is "maximum_cost" as it determines how many levels you'll have to pay for fully enchanting an item with all possible enchantments it can have.
@@ -89,5 +96,6 @@
 		scale_costs_by_vanilla_only = true
 		#Cost level to scale prices by. This is not a strict value, meaning it can be exceeded (e.g. when applying treasure enchantments).
 		#Default Value: 30
-		#Range: > 1
+		# Default: 30
+		# Range: > 1
 		maximum_cost = 30

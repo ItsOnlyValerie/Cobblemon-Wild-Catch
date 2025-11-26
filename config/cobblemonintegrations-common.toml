@@ -4,24 +4,11 @@
 		#Wrap "{}" around text shown when crouching, and "!{}" for text shown when not crouching.
 		#Placeholders prefixed by "%" have a lang entry at "cobblemonintegrations.jade.pokemon_entity.<placeholder without %>".
 		#Placeholders prefixed by "#" MUST be placed on their own line.
-		#Valid placeholders are: %dex_status, %display_name, %nickname, %species, %gender, #health, %level, %typing, %ev_yield, %nature, %ability, %ivs, %evs, %trainer, %egg_groups, %battle_message
+		#Valid placeholders are: %dex_status, %size, %display_name, %nickname, %species, %gender, #health, %level, %typing, %ev_yield, %nature, %ability, %ivs, %evs, %trainer, %egg_groups, %battle_message
 		#Any text prefixed with "$" will look for an associated lang entry. Example: "$crouch_message" pulls the lang entry "cobblemonintegrations.jade.pokemon_entity.crouch_message".
 		#Finally, you can configure conditions using "<placeholder>:<conditions>" where conditions are an & separated list of "<hidden/unknown>_<when/unless>_<condition>".
 		#Valid conditions are: unknown, encountered, caught, wild, yours, others, nicknamed
-		pokemonTooltip = """
-%dex_status %nickname %species %gender %level
-#health
-$species_label %species
-%trainer
-%typing
-%ev_yield
-{%nature
-%ability
-%ivs
-%evs
-%battle_message}!{$crouch_message
-%battle_message}
-"""
+		pokemonTooltip = "%dex_status %nickname:hidden_unless_nicknamed %species:hidden_when_nicknamed&unknown_when_unknown %gender:hidden_when_unknown %level\r\n#health\r\n$species_label %species\r\n%trainer\r\n%typing\r\n%ev_yield\r\n{%nature\r\n%ability\r\n%ivs\r\n%evs\r\n%battle_message}!{$crouch_message\r\n%battle_message}\r\n"
 
 [waystones]
 	#Allow Pokemon to be used for Waystone teleportation.

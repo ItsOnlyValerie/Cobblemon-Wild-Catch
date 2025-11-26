@@ -27,16 +27,20 @@
 	#Allowed Values: TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
 	screen_corner = "BOTTOM_RIGHT"
 	#Offset on x-axis from screen border.
-	#Range: > 0
+	# Default: 8
+	# Range: > 0
 	offset_x = 8
 	#Offset on y-axis from screen border.
-	#Range: > 0
+	# Default: 4
+	# Range: > 0
 	offset_y = 20
 	#Percentage of relative screen height entries are allowed to fill at max.
-	#Range: 0.0 ~ 1.0
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
 	max_height = 0.5
 	#Scale of entries. A lower scale will make room for more rows to show. Works together with "GUI Scale" option in "Video Settings".
-	#Range: 1 ~ 24
+	# Default: 4
+	# Range: 1 ~ 24
 	scale = 7
 
 [general]
@@ -62,12 +66,14 @@
 	#Allowed Values: ALWAYS, NEVER, EXCLUDE_NAMED
 	combine_entries = "EXCLUDE_NAMED"
 	#Amount of ticks each entry will be shown for. Set to 0 to only remove entries when space for new ones is needed.
-	#Range: > 0
+	# Default: 80
+	# Range: > 0
 	display_time = 80
 	#Make outdated entries slowly move out of the screen instead of disappearing in place.
 	move_out_of_screen = true
 	#Amount of ticks it takes for an entry to move out of the screen. Value cannot be larger than "Display Time".
-	#Range: > 0
+	# Default: 20
+	# Range: > 0
 	move_time = 20
 	#Make outdated entry names slowly fade away instead of simply vanishing.
 	fade_away = true

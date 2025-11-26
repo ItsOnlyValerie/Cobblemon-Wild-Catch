@@ -2,8 +2,7 @@
   "#README": "This config file does not support comments. To see them configure it in-game using YACL or Cloth Config (or just use Forge)",
   "blocks": {
     "globe": {
-      "random_world": true,
-      "show_coordinates": true
+      "random_world": true
     },
     "notice_board": {
       "centered_text": true
@@ -78,6 +77,7 @@
     }
   },
   "general": {
+    "dynamic_assets_generation_mode": "CACHED",
     "no_optifine_warn_screen": false,
     "no_amendments_screen": false,
     "no_incompatible_mods_screen": false,
@@ -92,9 +92,7 @@
     "I am very boring": false
   },
   "tweaks": {
-    "clock_right_click": true,
     "projectile_weapon_overlay": true,
-    "compass_right_click": false,
     "placeable_books_glint": false,
     "banner_pattern_tooltip": true,
     "paintings_tooltip": true,
@@ -102,7 +100,9 @@
     "tooltip_image_size": 80,
     "mob_head_shaders": true,
     "send_chat_on_death": true,
+    "enderman_head_texture_pack_support": true,
     "colored_maps": {
+      "slime_effect_overlay": true,
       "tinted_blocks_on_maps": true,
       "tall_grass_color": true,
       "accurate_colors": false

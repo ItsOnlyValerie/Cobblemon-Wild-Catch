@@ -64,6 +64,7 @@
   },
   "cobblemonintegrations": {
     "healer": true,
+    "campfire_pot": true,
     "fossil_analyzer": true,
     "pokemon_entity": true,
     "berry_bush": true
@@ -84,9 +85,6 @@
   },
   "waystones": {
     "waystone": true
-  },
-  "chesttracker": {
-    "memory_preview": true
   },
   "oregrowth": {
     "ore_growth_hint": true,
