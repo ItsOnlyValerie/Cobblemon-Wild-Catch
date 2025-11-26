@@ -3,9 +3,9 @@
   "general": {
     "server_assets_generation_mode": "ALWAYS",
     "creative_tab": true,
-    "generate_wood_tags": false,
     "tab_item_search": true,
     "no_mod_creative_tab": false,
+    "generate_blocktype_tags": true,
     "mod_version_check_packet": true,
     "debug_packet": false,
     "tooltips": {
