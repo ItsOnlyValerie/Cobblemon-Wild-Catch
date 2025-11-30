@@ -48,8 +48,8 @@ mouseSensitivity:0.352112676056338
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["vanilla","fabric","minecraft:udpresencefootsteps","cobblemon:gyaradosjump","cobblemon:regionbiasforms","file/Cheese-Pokedollars.zip","file/Cobblemon Classic Grass Pack v2.1 MC1.21.1.zip","file/LowOnFire 1.21.3.zip","cobblemon:uniqueshinyforms","moonlight:merged_pack","file/Maxi\u0027s-JM+CM_Pixel-U7.zip","file/NoCaveAmbience.zip"]
-incompatibleResourcePacks:["appleskin","balm","betteradvancements","bookshelf","carryon","cherishedworlds","cobbleloots","cobblemon_spawn_notification","controlling","cookingforblockheads","craftingtweaks","emiprofessions","enchdesc","fancymenu","jade","jadeaddons","jmi","konkrete","lootbeams","mcwdoors","mes","mns","moogs_structures","mss","mvs","polymorph","searchables","sophisticatedbackpacks","sophisticatedcore","sophisticatedstorage","terrablender","waystones","yet_another_config_lib_v3"]
+resourcePacks:["vanilla","fabric","minecraft:udpresencefootsteps","cobblemon:gyaradosjump","cobblemon:regionbiasforms","file/Cheese-Pokedollars.zip","file/Cobblemon Classic Grass Pack v2.1 MC1.21.1.zip","file/LowOnFire 1.21.3.zip","cobblemon:uniqueshinyforms","moonlight:merged_pack","file/NoCaveAmbience.zip","file/Maxi\u0027s-JM+CM_Pixel-U8.zip"]
+incompatibleResourcePacks:["appleskin","balm","betteradvancements","bookshelf","botanypots","botanypotstiers","carryon","cherishedworlds","cobbleloots","controlling","cookingforblockheads","craftingtweaks","emiprofessions","enchdesc","fancymenu","jade","jadeaddons","jmi","konkrete","lootbeams","mca","mcwdoors","mes","mns","moogs_structures","mss","mvs","polymorph","searchables","sophisticatedbackpacks","sophisticatedcore","sophisticatedstorage","terrablender","waystones","yet_another_config_lib_v3"]
 lastServer:
 lang:en_us
 chatVisibility:0
@@ -199,11 +199,11 @@ key_keybind.sophisticatedbackpacks.open_backpack:key.keyboard.b
 key_keybind.sophisticatedbackpacks.inventory_interaction:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.tool_swap:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.sort:key.mouse.middle
-key_keybind.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.x
-key_keybind.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
-key_keybind.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
+key_keybind.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
+key_keybind.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
+key_keybind.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
 key_keybind.sophisticatedstorage.sort:key.mouse.middle
 key_zoomify.key.zoom:key.keyboard.z
 key_zoomify.key.zoom.secondary:key.keyboard.unknown
