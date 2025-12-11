@@ -1,8 +1,8 @@
 {
-  "#README": "This config file does not support comments. To see them configure it in-game using YACL or Cloth Config (or just use Forge)",
   "types": {
     "cake": {},
     "wood_type": {
+      // Disables certain types. Note that all these configs, like in any other mod, only hide stuff from tabs and disable their recipes
       "cobblemon.apricorn": true,
       "cobblemon.saccharine": true,
       "biomesoplenty.fir": true,
@@ -86,6 +86,7 @@
       "chipped.orange_spruce": true,
       "chipped.red_spruce": true,
       "chipped.white_flower_spruce": true,
+      // Disables certain types. Note that all these configs, like in any other mod, only hide stuff from tabs and disable their recipes
       "cobblemon.apricorn": true,
       "cobblemon.saccharine": true,
       "biomesoplenty.null": true,

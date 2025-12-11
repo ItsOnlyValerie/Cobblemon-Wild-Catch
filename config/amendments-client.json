@@ -1,11 +1,11 @@
 {
-  "#README": "This config file does not support comments. To see them configure it in-game using YACL or Cloth Config (or just use Forge)",
   "general": {
     "tooltip_hints": true,
     "custom_configured_screen": true
   },
   "sign": {
     "pixel_consistent": true,
+    // Accepted range: 0.0 to 5.0
     "text_color_multiplier": 1.2
   },
   "projectiles": {
@@ -21,6 +21,7 @@
     }
   },
   "lily_pad": {
+    // Accepted range: -1.0 to 1.0
     "y_offset": -0.016625
   },
   "bell": {
@@ -36,6 +37,7 @@
     "fast_hooks": false
   },
   "hanging_sign": {
+    // Accepted range: 0.0 to 32.0
     "item_pixel_scale": 10.0,
     "swinging_signs": true,
     "sign_attachment": true,
@@ -60,6 +62,7 @@
       "max_angle": 60.0,
       "damping": 0.5249999761581421
     },
+    // Accepted range: 0.0 to 2.0
     "lantern_item_size": 0.625,
     "lantern_item_holding": true,
     "lantern_item_holding_up": false
@@ -73,8 +76,10 @@
   },
   "misc": {
     "torch_item_holding": true,
+    // Accepted range: 0.0 to 2.0
     "torch_item_size": 1.0,
     "candle_holder_item_holding": true,
+    // Accepted range: 0.0 to 2.0
     "handle_holder_item_size": 0.625,
     "fixed_holding_animations": false,
     "campfire_smoke_through_blocks": false
