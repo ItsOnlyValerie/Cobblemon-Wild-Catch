@@ -423,7 +423,18 @@
       "chipped.nailed_log": true
     },
     "leaves_type": {
-      "mcwfences.hedge": true
+      "chipped.frosted_leaves": true,
+      "chipped.orange_leaves": true,
+      "chipped.red_leaves": true,
+      "chipped.magenta_flower_leaves": true,
+      "chipped.cherry_leaves": true,
+      "mcwfences.hedge": true,
+      "chipped.golden_cherry_leaves": true,
+      "chipped.golden_leaves": true,
+      "chipped.dead_leaves": true,
+      "chipped.apple_leaves": true,
+      "chipped.golden_apple_leaves": true,
+      "chipped.white_flower_leaves": true
     }
   }
 }
